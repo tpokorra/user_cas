@@ -26,7 +26,7 @@ style('user_cas', 'settings');
     <input type="hidden" autocomplete="false" />
 
     <h2><?php p($l->t('CAS Authentication backend')); ?>
-        &nbsp;<?php p(\OC_App::getAppInfo('user_cas')["version"]); ?></h2>
+        &nbsp;<?php p("unknown version"); ?></h2>
 
     <div id="casSettings" class="personalblock">
         <ul>
